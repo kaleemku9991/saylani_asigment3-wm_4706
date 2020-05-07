@@ -1,0 +1,202 @@
+
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  background-color:white;
+  border: 2px solid white;
+  ;
+} 
+
+label.dropdown
+{
+    padding: 5px;
+    color: white;    
+}
+label:hover {
+    background-color:lightblue;
+  }
+
+  label
+  {
+ border-radius: 5px;   
+  }
+
+ul.nav
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+div.under
+{
+  margin-right: 150px;
+}
+
+
+
+img.saylani
+{
+  width: 190px;
+  margin-left: 40px;
+}
+.flex-container > div {
+    background-color: blue;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    color: gainsboro;
+    
+  }
+  .flex-container {
+    display: flex;
+    background-color: blue;
+    width: fit-content;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-column-gap: 25px;
+    grid-row-gap: 50px;
+    grid-template-columns: auto auto auto;
+    background-color:rgba(255, 255, 255, 0.8);
+    padding: 10px;
+   
+  }
+  
+  .grid-item {
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    font-size: 30px;
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    margin-left: auto;
+  margin-right: auto;
+  color: blue;
+  }
+  .newgrid
+  {
+    display: grid;
+    grid-column-gap: 25px;
+    grid-row-gap: 50px;
+    grid-template-columns: auto auto auto;
+    background-color:rgba(255, 255, 255, 0.8);
+    padding: 10px; 
+  }
+  .grid-item2 {
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    height: 100px;
+    color: blue;
+    
+  }
+
+  .footer {
+    padding: 20px;
+    background:black;
+    height: 300px;
+    color: white;
+  }
+  
+img.saylani
+{
+  width: 190px;
+}
+  
+
+ /*
+button.btn  dropdown-toggle
+{
+  border-radius: 5px;
+}*/
+
+
+
+  @media only screen and (max-width: 790px)
+  {
+    .flex-container{
+      width: 100%;
+    }
+    .flex-container > div {
+      background-color: blue;
+      margin: 1px;
+      padding: 1px;
+      font-size: 10px;
+      color: gainsboro;
+      
+    }
+    div.gallery
+    {
+      margin-left: auto;
+      margin-right: auto;
+      font-size: medium;
+    }
+    div.what{
+
+      margin-left: auto;
+      margin-right: auto;
+      font-size: medium;
+    }
+  
+   
+    
+img.saylani
+{
+  width: 50%;
+  margin-left: 100px;
+  
+}
+div.under
+{
+  margin-right: 60px;
+  width: 100%;
+  text-align: center;
+}
+
+
+div.sticky {
+ width: 100%;
+
+} 
+
+.grid-container {
+  display: grid;
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+  grid-template-columns: auto auto auto;
+  background-color:rgba(255, 255, 255, 0.8);
+  padding: 1px;
+ 
+}
+
+.grid-item {
+  background-color: whitesmoke;
+  border: 1px solid whitesmoke;
+  padding: 10px;
+  font-size: 10px;
+  text-align: center;
+  width: 150px;
+  height: 130px;
+  margin-left: auto;
+margin-right: auto;
+color: blue;
+}
+
+
+
+.footer {
+  padding: 10px;
+  background:black;
+  height: 350px;
+  color: white;
+}
+
+  }
+
+  
+ 
